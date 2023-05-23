@@ -1,7 +1,20 @@
+/* Topo */
+
 header {
-    /* background-color: black; */
+    background-color: black;
 }
 
 header img {
+padding-left: 55px;
+}
 
+header i {
+    
+}
+
+/* Navbar */
+
+nav {
+    border-top: 1px solid grey;
+    background-color: black;
 }
