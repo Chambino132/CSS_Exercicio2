@@ -1,20 +1,87 @@
-/* Topo */
+/* Gerais */
 
-header {
+body {
+    margin: 0px;
+}
+
+.Cab {
+    width: 100%;
+    overflow: hidden;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: grey;
+}
+
+/* Header */
+
+.Head {
     background-color: black;
+    height: auto;
+    display: flex;
+    padding-left: 350px;
+    margin-bottom: 1px;
 }
 
-header img {
-padding-left: 55px;
+.Head img {
+    padding-bottom: 10px;
+    padding-left: 20px;
 }
 
-header i {
-    
+.Head i {
+    padding-top: 9px;
 }
 
 /* Navbar */
 
-nav {
-    border-top: 1px solid grey;
+.Nav {
     background-color: black;
+    display: flex;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 350px;
+}
+
+.Nav a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+}
+.Nav a:hover {
+    color: darkgrey;
+}
+.Nav a:active {
+    color: grey;
+}
+
+.op {
+    margin-top: 3%;
+    margin-left: 10px;
+}
+
+.Nav i {
+    color: white;
+    padding: 5px;
+}
+
+.icons {
+    margin-top: 2.6%;
+    margin-left: 5%;
+    padding-right: 0%;
+}
+
+.Nav input[type="button"] {
+    height: 30px;
+    width: 9%;
+    margin: 2%;
+    margin-top: 2.5%;
+    text-align: center;
+
+    background-color: rgb(253, 192, 35);
+    font-weight: bold;
+    border-radius: 15px;
+}
+
+.Nav p {
+    color: white;
+    margin-top: 45px;
 }
